@@ -1,0 +1,39 @@
+.FormGroup{
+    position: relative
+}
+
+input{
+    height: 30px ;
+    width: 6rem;
+    margin: 1rem 0;
+    outline: none ;
+    border: 0;
+    border-bottom: hsl(39, 85%, 95%) solid 1px;
+    background-color: rgb(8, 8, 8);
+    color:hsla(41, 85%, 95%, 0.315);
+    
+
+}
+
+input ::placeholder{
+    color: #ffffff
+}
+
+label{
+    color:hsla(41, 85%, 95%, 0.315);
+    font-size: 0.8rem;
+    position: absolute;
+    top: 1.5rem;
+    transition: 300ms ease all;
+
+}
+
+input:focus ~ label {
+    top: 0;
+    font-size: 0.6rem;
+}
+
+.shrink{
+    top: 0;
+    font-size: 0.6rem;
+}
