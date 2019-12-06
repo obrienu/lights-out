@@ -60,20 +60,10 @@ export class SquareUi extends Component {
                 return a
             }))]
         }), () => {
-            let arr =[]
-            const {squares} = this.state
-            for(let i =0; i < squares.length; i++){
-                let subarr = []
-                for(let j = 0; j < squares[i].length; j++){
-                    squares[i][j]['isOn'] === true && subarr.push(true)
-                }
-               arr.push(...subarr)
-            }
-            if(arr.length === 0){
-                this.setState({
-                    gameOver: true
-                })
-            }
+            [this.state.squares.map(square => square.map(a=> a.isOn))]
+            .join(',').split(',').every(a=> a === "false") && this.setState({
+                gameOver: true
+            }) 
         })
     }
 
