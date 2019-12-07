@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "https//:obrienu.github.io/lights-out/static/css/main.ddf1ca7e.chunk.css",
+    "main.js": "https//:obrienu.github.io/lights-out/static/js/main.c359042f.chunk.js",
+    "main.js.map": "https//:obrienu.github.io/lights-out/static/js/main.c359042f.chunk.js.map",
+    "runtime-main.js": "https//:obrienu.github.io/lights-out/static/js/runtime-main.4a9ac25b.js",
+    "runtime-main.js.map": "https//:obrienu.github.io/lights-out/static/js/runtime-main.4a9ac25b.js.map",
+    "static/js/2.f999ba9d.chunk.js": "https//:obrienu.github.io/lights-out/static/js/2.f999ba9d.chunk.js",
+    "static/js/2.f999ba9d.chunk.js.map": "https//:obrienu.github.io/lights-out/static/js/2.f999ba9d.chunk.js.map",
+    "index.html": "https//:obrienu.github.io/lights-out/index.html",
+    "precache-manifest.3f25d88bb99044518b07f3d0744f9aef.js": "https//:obrienu.github.io/lights-out/precache-manifest.3f25d88bb99044518b07f3d0744f9aef.js",
+    "service-worker.js": "https//:obrienu.github.io/lights-out/service-worker.js",
+    "static/css/main.ddf1ca7e.chunk.css.map": "https//:obrienu.github.io/lights-out/static/css/main.ddf1ca7e.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a9ac25b.js",
+    "static/js/2.f999ba9d.chunk.js",
+    "static/css/main.ddf1ca7e.chunk.css",
+    "static/js/main.c359042f.chunk.js"
+  ]
+}
